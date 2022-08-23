@@ -14,8 +14,8 @@ data class Tarefa(
     var nome: String,
     @SerializedName("prazo")
     var prazo: String,
-    @SerializedName("prazo")
-    var cadastro: LocalDate = LocalDate.now(),
+    @SerializedName("cadastro")
+    var cadastro: String,
     @SerializedName("descricao")
     var descricao: String,
     @SerializedName("users")

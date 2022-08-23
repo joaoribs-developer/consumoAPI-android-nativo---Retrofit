@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.create
 
 class ApiClient() {
-    val baseURL = "http://10.0.2.2:8080/"
+    val baseURL = "http://192.168.10.174:8080/"
     lateinit var retrofitService: RetrofitService
 
     fun getRetrofitService(context: Context): RetrofitService {
