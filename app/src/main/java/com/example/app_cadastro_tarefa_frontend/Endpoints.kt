@@ -8,6 +8,6 @@ import retrofit2.http.Body
 import retrofit2.http.POST
 
 interface Endpoints {
-    @POST("/api/login")
-    fun getLogin(@Body request: LoginRequest): Call<JSONObject>
+    @POST("api/login")
+    fun getLogin(@Body request: LoginRequest): Call<LoginResponse>
 }
